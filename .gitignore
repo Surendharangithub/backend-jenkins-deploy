@@ -1,0 +1,74 @@
+# ========================
+# Node.js
+# ========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# ========================
+# Environment Variables
+# ========================
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# ========================
+# Build Output
+# ========================
+dist/
+build/
+out/
+
+# ========================
+# Logs
+# ========================
+logs/
+*.log
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# IDE / Editor
+# ========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ========================
+# Coverage & Testing
+# ========================
+coverage/
+.nyc_output/
+
+# ========================
+# Cache
+# ========================
+.npm/
+.eslintcache
+.cache/
+```
+
+---
+
+## How to Use
+
+**Step 1:** Create the file in your project root:
+```
+your-project/
+├── app.js
+├── package.json
+├── .gitignore      ← create here
+└── Jenkinsfile

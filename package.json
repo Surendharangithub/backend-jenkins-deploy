@@ -1,0 +1,25 @@
+{
+  "name": "backend-jenkins-deploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: All test Passed\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Surendharangithub/backend-jenkins-deploy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Surendharangithub/backend-jenkins-deploy/issues"
+  },
+  "homepage": "https://github.com/Surendharangithub/backend-jenkins-deploy#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
